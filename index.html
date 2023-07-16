@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card1">
+        <div class="balance">
+          <p>My balance</p>
+          <p>$921.48</p>
+        </div>
+        <img src="./images/logo.svg" alt="" />
+      </section>
+
+      <section class="card2">
+        <div class="first">
+          <p>Spending - Last 7 days</p>
+          <div class="bars">
+            <div class="chart">
+              <div id="mon">
+                <p class="mon"></p>
+                <p id="valmon"></p>
+              </div>
+              <div id="tue">
+                <p class="tue"></p>
+                <p id="valtue"></p>
+              </div>
+              <div id="wed">
+                <p class="wed"></p>
+                <p id="valwed"></p>
+              </div>
+              <div id="thu">
+                <p class="thu"></p>
+                <p id="valthu"></p>
+              </div>
+              <div id="fri">
+                <p class="fri"></p>
+                <p id="valfri"></p>
+              </div>
+              <div id="sat">
+                <p class="sat"></p>
+                <p id="valsat"></p>
+              </div>
+              <div id="sun">
+                <p class="sun"></p>
+                <p id="valsun"></p>
+              </div>
+            </div>
+            <div class="days">
+              <p>mon</p>
+              <p>tue</p>
+              <p>wed</p>
+              <p>thu</p>
+              <p>fri</p>
+              <p>sat</p>
+              <p>sun</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="second">
+          <p>Total this month</p>
+          <p>$478.33</p>
+          <div class="percent">
+            <p>+2.4%</p>
+            <p>from last month</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Jonathan-Hart Peter T.</a>.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
